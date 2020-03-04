@@ -1,0 +1,246 @@
+
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Porncest is Best</title>
+  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/wAAF/6AABv9gAAd+4AAHveAAB9vgAAfn4AAH5+AAB9vgAAe94AAHfuAABv9gAAX/oAAD/8AAAAAAAA" rel="icon" type="image/x-icon" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="
+  sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    .menu-left {
+    border-left: 1px solid #7B7B7C;
+    font-size: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    }
+    .menu-rest {
+    border-right: 1px solid #7B7B7C;
+    border-left: 1px solid #7B7B7C;
+    font-size: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+    }
+    .catbox {
+      border:1px solid #7B7B7C;
+      padding: 5px;
+      margin-bottom: 15px;
+
+    }
+    .row.no-pad {
+      margin-right:0;
+      margin-left:0;
+    }
+    .row.no-pad > [class*='col-'] {
+      padding-right:0;
+      padding-left:0;
+    }
+    /* black background */
+    body {
+      background-color: #000000;
+      padding: 25px;
+    }
+    hr {
+      color: #7B7B7C;
+      margin-top:20px;
+      Border-top: 1px solid #eee;
+      ;
+    }
+    h4 {color: white;
+      padding-bottom: 25px;
+       font-weight:300;
+       text-indent: 10px;
+    }
+    p {
+    margin: 0 0 0px;
+    color:#ffffff; 
+    font-weight:300;
+    }
+    .pstars{
+    float:left;
+    text-indent: 3px;
+    font-size:80%;
+    color:#ffffff; 
+    font-weight:300;
+    padding-top:4px;
+    }
+
+    .hostsite{
+    float:right;
+    text-indent: 3px;
+    font-size:75%;
+    color:#ffffff; 
+    text-transform:capitalize;
+    font-weight:300;
+    padding-top:4px;
+    }
+    h5 {
+    margin: 0 0 0px;
+    color:#ffffff; 
+    padding-bottom: 4px;
+    padding-top: 8px;
+    font-weight:300;
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      font-size: 70%;
+      padding: 5px;
+    }
+    /* SEARCH BOX STUFF*/
+    
+    form{
+    position: relative;
+
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: #FF7E79;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid black;
+    padding: 5px;
+}
+
+    input{
+    position: absolute;
+    top: 0;
+    left: -2px;
+    width: 100%;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+    .fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: solid black;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+    form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+    form:hover input{
+    display: block;
+}
+
+    form:hover .fa{
+    background: black;
+    color: #FF7E79;
+}
+
+
+    @media screen and (max-width: 620px) {
+    .searchBox:hover > .searchInput {
+        width: 150px;
+        padding: 0 6px;
+    }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse justify-content-between">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/index">
+        <img alt="Porncest" src="{{ url_for('static', filename='img/hlogo.png') }}" class="img-responsive" style="max-width:60%;margin-top: -20px;">
+      </a>
+    </div>
+        <form action="">
+          <input type="search">
+          <i class="fa fa-search"></i>
+        </form>
+    
+        
+
+</nav>
+
+<hr style="margin-bottom: 2px">
+<div class="container-fluid text-center">  
+   <div class="row no-pad">
+      <div class="menu-left">
+       <p style="padding:0"> All Videos </p>
+     </div>
+      <div class="menu-left">
+        <p style="padding:0"> Pornstars </p>
+      </div>
+      <div class="menu-left">
+        <p style="padding:0"> Popular Videos </p>
+      </div>
+      <div class="menu-rest">
+        <p style="padding:0"> Random Category </p>
+    </div>
+  </div>
+</div>
+<hr style="margin-top: 2px; margin-bottom: 30px;">
+
+<div class="container-fluid text-left">    
+  <div class="row">
+    <div class="col-sm-12">
+  
+      <h4>{{ category }}</h4>
+
+    </div>
+  </div>
+</div>
+      
+<div class="container-fluid text-left">    
+  <div class="row">
+    {% for post in posts %}
+    <div class="col-xl-3 col-lg-4 col-md-6"">
+      <div class="catbox">
+        
+        <p style="color: #FF7E79;text-indent: 3px;padding-bottom:7px;">{{ post.title|truncate(33, True) }}</p>
+        <a href="{{post.url}}" target="_blank"><img src="{{ post.thumbnail }}" class="img-responsive" style="width:100%;" alt="Image"></a>
+        <p><span class="pstars">{{ post.stars|truncate(30, True)|replace(";",", ") }}</span><span class="hostsite"><i class="fas fa-tv" style="font-weight: 600;font-size:80%;"></i>   {{ post.url.rpartition("www.")[-1].partition(".com")[0] }}</span>​<p>
+        
+     </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<hr style="margin-top: 25px;margin-bottom: 0px">
+
+<footer class="container-fluid text-left">
+  <p>All models were 18 years of age or older at the time of depiction.</p>
+  <p>Porncest.com has a zero-tolerance policy against illegal pornography.</p>
+  <p>This site is rated with RTA label. Parents, you can easily block access to this site. Please <a style="color:#FF7E79;text-decoration: underline;"href="http://www.rtalabel.org/index.php?content=parents">read this page</a> for more informations.</p>
+
+<p>© 2019-2020 Porncest.com | Abuse</p>
+</footer>
+
+</body>
+</html>
+
+{% endblock %}
